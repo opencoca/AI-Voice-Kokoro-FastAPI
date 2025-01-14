@@ -27,7 +27,7 @@ The service can be accessed through either the API endpoints or the Gradio web i
    - Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
    - Clone the repository:
         ```bash
-        git clone https://github.com/remsky/Kokoro-FastAPI.git
+        git clone https://github.com/opencoca/AI-Voice-Kokoro-FastAPI.git
         cd Kokoro-FastAPI
         ```
 
