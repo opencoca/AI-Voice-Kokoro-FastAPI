@@ -28,15 +28,15 @@ The service can be accessed through either the API endpoints or the Gradio web i
    - Clone the repository:
         ```bash
         git clone https://github.com/opencoca/AI-Voice-Kokoro-FastAPI.git
-        cd Kokoro-FastAPI
+        cd AI-Voice-Kokoro-FastAPI/
         ```
 
 2. Start the service:
    
    - Using Docker Compose (Full setup including UI):
         ```bash
-        cd docker/gpu # OR 
-        # cd docker/cpu # Run this or the above
+        cd docker/cpu # Run this on Apple
+        # cd docker/gpu # OR this if you have an Nvida card
         docker compose up --build 
         ```
    - OR running the API alone using Docker (model + voice packs baked in):
